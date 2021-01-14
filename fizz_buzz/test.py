@@ -1,4 +1,4 @@
-from fizz_buzz.main import check_for_multiple, print_fizz_series
+from fizz_buzz.main import check_for_multiple
 
 assert check_for_multiple(6) == 'fizz', "Should be 'fizz'"
 assert check_for_multiple(7,fizz=7) == 'fizz', "Should be 'fizz'"
